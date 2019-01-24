@@ -1,1 +1,3 @@
 getting Git is legit
+
+adding more text to this file
