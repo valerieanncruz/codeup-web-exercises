@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Piece of Pie</title>
+</head>
+
+    <header>
+        <h3>Welcome to Piece of Pie</h3>
+        <img src="image/PizzaOven.jpg" alt="pizza" style="width:25%">
+    </header>
+        <body>
+
+        <form method="POST" action="https://request-inspector.glitch.me/" target="_blank">
+
+            <h3>Select your size of pie</h3>
+                <select name="Select your pie size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="Xlarge">XLarge</option><br><br>
+                </select>
+
+
+            <h3>Select your meat toppings</h3>
+
+                <input type="radio" id="toppings1"
+                       name="toppings1" value="pepperoni">
+                <label for="toppings1">Pepperoni</label>
+
+                <input type="radio" id="toppings2"
+                name="toppings2" value="sausage">
+                <label for="toppings2">Sausage</label>
+
+
+                <input type="radio" id="toppings3"
+                name="toppings3" value="Bacon">
+                <label for="toppings3">Bacon</label>
+
+
+                <input type="radio" id="toppings4"
+                name="toppings4" value="ham">
+                <label for="toppings1">Ham</label><br><br>
+
+
+                <h3> Select your veggies</h3>
+                <input type="checkbox" id="toppings5"
+                   name="toppings5" value="Mushrooms">
+                <label for="toppings5">Mushroom</label>
+
+                <input type="checkbox" id="toppings6"
+                   name="toppings6" value="Green Peppers">
+                <label for="toppings6">Green Peppers</label>
+
+
+                <input type="checkbox" id="toppings7"
+                   name="toppings7" value="Onions">
+                <label for="toppings7">Onions</label>
+
+
+                <input type="radio" id="toppings8"
+                   name="toppings4" value="dried tomatoes">
+                <label for="toppings1">Dried Tomatoes</label><br><br>
+
+
+            <h4>We need your email, so you know when to pick up your pie!</h4>
+
+            Email:<br>
+            <input type="text" name="email address"><br>
+            Password: <br>
+            <input type="password" name="pwd"><br><br>
+
+
+            <input type="submit" onclick="return clicked();" value="submit" />
+
+
+                <input type="hidden" name="user_id" value="432">
+        </form>
+
+</body>
+</html>

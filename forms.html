@@ -5,35 +5,53 @@
         <title>Register with us</title>
     </head>
     <body>
-        <form method="POST" action="http://requestbin">
-
+        <form method="POST" action="https://request-inspector.glitch.me/">
             <p>
-                <input type="text" name="email" placeholder="email address">
-                <input type="password" name="password" placeholder="password">
+                    <h3>Please Login</h3>
+                    Email Address:<br>
+                    <input type="text" name="email" placeholder="enter here"><br><br>
+                    Password:<br>
+                    <input type="password" name="password" placeholder="enter here"><br><br>
+                <!-- reference https://www.w3schools.com/html/html_forms.asp -->
 
-                <button type="submit">Login</button>
 
-                <br>
-                <br>
-                <h5> Write a brief bio summary</h5>
-                <textarea name="bio"</textarea>
-        </form>
-        <p>
-                <h4> How did you hear about us? </h4>
+                     <h3>Be creative, tell us something about yourself!</h3>
+                     <textarea name="bio" placeholder="start your story here"></textarea><br><br>
 
-            <input type="radio" name="quiz_question_1" value="a"><br>
-            <input type="radio" name="quiz_question_1" value="b"><br>
-            <input type="radio" name="quiz_question_1" value="c"><br>
-            <input type="radio" name="quiz_question_1" value="d"><br>
 
+
+                    <h3> How did you hear about us? </h3>
+                    <div>
+                        <input type="radio" id="option1"
+                           name="option1" value="billboard">
+                        <label for="option1">Billboard</label>
+
+                        <input type="radio" id="option2"
+                               name="option2" value="Radio Advertisement">
+                        <label for="option2">Radio Advertisement</label>
+
+                        <input type="radio" id="option3"
+                               name="option3" value="Internet Advertisement">
+                        <label for="option3">Internet Advertisement</label>
+
+                        <input type="radio" id="option4"
+                               name="option4" value="Other">
+                        <label for="option4">Other</label><br><br>
+
+                    </div>
+                        <p><strong>What's your browser preference?</strong></p>
+                        Select from the list:<br>
+                         <select name="Internet browser">
+                             <option value="Safari">Safari</option>
+                             <option value="Chrome">Chrome</option>
+                             <option value="Internet Explorer">Internet Explorer</option>
+                        </select>
+            <br>
+                    </div>
+
+                    <br><br><br>
+
+                    <button type="submit">Submit</button>
+            </form>
     </body>
-
-
-
-
-
-
-
-        </form>
-</body>
 </html>
